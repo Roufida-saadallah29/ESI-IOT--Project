@@ -1,0 +1,80 @@
+*{
+    padding: 0;
+    font-family: sans-serif;
+
+}
+
+body{
+    padding: 0%;
+}
+.Scroll{
+    text-align: center;
+}
+
+#btn{
+    text-decoration: none;
+    display: inline-block;
+    padding: 12px 30px;
+    margin-top: 60px;
+    border-radius: 11px;
+    border-color: cornflowerblue;
+    background: blue;
+    color: aliceblue;
+}
+.Second div{
+    display: inline-block;
+}
+.Second h2{
+    padding-bottom: 40px;
+    color: darkslateblue;
+}
+.Second .intro p{
+    border-style: ridge;
+    width: 230px;
+    border-radius: 5px;
+    margin: 0px 5px;
+    margin-top: 30px;
+}
+.Second{
+    height: 500px;
+    width: auto;
+    padding: 100px 0px;
+}
+
+.First{
+    height: 500px;
+    width: auto;
+    padding-top: 150px;
+    background-color: cornflowerblue;
+    
+}
+footer{
+    background-color: rgb(9, 10, 9);
+    color: aliceblue;
+    height: auto;
+    width: 100vmax;
+    font-family: "Open Sans";
+    padding-top: 10px;
+}
+.footer-content{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.footer-content h3{
+    font-size: 1.8rem;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 3rem;
+}
+.footer-buttom{
+    background: #000;
+    width: 100vmax;
+    padding: 20px 0px;
+    text-align: center;
+
+}
+
+

@@ -1,0 +1,131 @@
+*{
+  font-family: sans-serif;
+}
+h1{
+  margin: 30px 10px;
+}
+.filer{
+  float: right;
+  margin-right: 40px;
+}
+.filter input{
+  margin: 10px 20px;
+  display: inline-block;
+}
+.filer label{
+  margin: 0px 7px;
+}
+button{
+  border-radius: 7px;
+  background-color: cornflowerblue;
+  font-size: medium;
+  padding: 5px 20px;
+  border-color:white;
+}
+.form-filtrage{
+  display: none;
+  position: fixed;
+  bottom: 19px;
+  right: 15px;
+  border: 3px solid #f1f1f1;
+  z-index: 9;
+  height:66%;
+  width:15%;
+  padding: 20px 50px;
+  background-color: #f1f1f1;
+}
+
+.form-popup {
+  display: none;
+  position: fixed;
+  bottom: 25px;
+  right: 15px;
+  border: 3px solid #f1f1f1;
+  z-index: 9;
+  
+  height:65%;
+  padding: 20px 50px;
+  background-color: #f1f1f1;
+}
+.form-popup .choose{
+  margin:20px 0px;
+  display: block;
+}
+.form-popup input{
+  display: block;
+  margin: 10px 20px;
+
+}
+.form-popup .inline input{
+  display: inline-block;
+}
+.form-popup .inline{
+  border-color: black;
+}
+
+.form-popup button{
+  border-radius: 10px;
+  background-color: cornflowerblue;
+  font-size: medium;
+  padding: 5px 20px;
+  float: right;
+  margin: 10px 10px;
+
+}
+
+.product-table {
+    width: 75%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    font-family: 'Open Sans', sans-serif;
+  }
+  
+.product-table  th, td {
+    border: 1px solid #dddddd;
+    padding: 8px;
+   
+    text-align: center;
+  }
+  
+.product-table  th {
+    background-color: #dddddd;
+    font-weight: bold;
+    color: #333333;
+  }
+  
+  /* Add some style to the table rows and cells */
+  .product-table tbody tr {
+    transition: background-color 0.5s ease;
+  }
+  
+  .product-table tbody td {
+    transition: transform 0.3s ease;
+  }
+  
+  /* Add a hover effect on table rows */
+  .product-table tbody tr:hover {
+    background-color: #f5f5f5;
+    cursor: pointer;
+  }
+  
+  /* Add a hover effect on table cells */
+  .product-table tbody tr:hover td {
+    transform: scale(1.05);
+  }
+  
+  /* Style the modify and delete buttons */
+  .modify-btn, .delete-btn {
+    background-color: #333333;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+
+  }
+  
+  .modify-btn:hover, .delete-btn:hover {
+    background-color: #555555;
+    
+  }
+  
